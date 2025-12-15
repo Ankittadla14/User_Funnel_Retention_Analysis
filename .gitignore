@@ -1,0 +1,14 @@
+# Data outputs (generated locally)
+*.csv
+*.parquet
+data/
+outputs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
