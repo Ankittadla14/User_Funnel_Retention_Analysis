@@ -27,6 +27,22 @@ Specifically:
 
 ---
 
+## Repo Structure
+-user-funnel-retention-analysis/
+├── notebooks/
+│   └── funnel_retention_analysis.ipynb
+├── sql/
+│   ├── 01_funnel.sql
+│   ├── 02_retention_cohorts.sql
+│   └── 03_segment_breakdowns.sql
+├── src/
+│   └── generate_events.py
+├── .gitignore
+├── requirements.txt
+└── README.md
+
+--
+
 ## 📐 Metrics Definitions
 - **Funnel conversion rate:** % of users who reach each step from signup
 - **Activation rate:** % of signed-up users who activate (e.g., add_friend or follow_creator)
